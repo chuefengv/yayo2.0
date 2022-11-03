@@ -1,9 +1,12 @@
 import './App.css';
+import {Hero, Projects, Footer} from "./components";
 
 function App() {
   return (
     <div className="App">
-      Yayo Vang
+      <Hero />
+      <Projects />
+      <Footer />
     </div>
   );
 }
