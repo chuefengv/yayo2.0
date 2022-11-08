@@ -2,3 +2,20 @@
     margin: 0;
     padding: 0;
 }
+
+.App{
+    display: grid;
+    grid-template-rows: 1fr auto auto;
+}
+
+.hero-container{
+    border: solid red 1px;
+}
+
+.projects-container{
+    border: solid blue 1px;
+}
+
+.footer-container{
+    border: solid green 1px;
+}
