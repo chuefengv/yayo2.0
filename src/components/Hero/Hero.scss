@@ -1,0 +1,13 @@
+.hero-container{
+    border: solid blue 1px;
+    height: 100vh;
+    position: relative;
+
+    .hero-textbody{
+        border: solid red 1px;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%,-50%);
+    }
+}
