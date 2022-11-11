@@ -1,1 +1,15 @@
-/* No CSS *//*# sourceMappingURL=Hero.css.map */
+.hero-container {
+  border: solid blue 1px;
+  height: 100vh;
+  position: relative;
+}
+
+.hero-container .hero-textbody {
+  border: solid red 1px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+}
+/*# sourceMappingURL=Hero.css.map */

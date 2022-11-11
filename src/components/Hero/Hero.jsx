@@ -16,8 +16,16 @@ export default function Hero() {
       })
 
   return (
-    <div className="hero-container">
+    <div className='hero-container'>
+
         {deskMode ? <HeroDesktop />:<HeroMobile />}
+
+        <div className='hero-textbody'>
+            <h1>YAYO VANG</h1>
+            <h4>DIRECTOR OF PHOTOGRAPHY</h4>
+            <button>SEE MORE</button>
+        </div>
+
     </div>
   )
 }
